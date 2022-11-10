@@ -39,8 +39,8 @@ body::before {
     clip-path: circle(20% at 70% 90%);
   }
 .container{
-    width: 40%;
-    height: 50%;
+    width: 60%;
+    height: 70%;
     text-align: center;
     background: inherit;
     border-radius: 15px;
@@ -56,7 +56,7 @@ body::before {
 
 
 #screen{
-    width: 95%;
+    width: 90%;
     height: 4rem;
     background-color: #8fb9b9;
     border-radius: 15px;
@@ -65,7 +65,7 @@ body::before {
     outline: none;
     color: #051213;
     text-align: right;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     
     
 }
@@ -75,12 +75,10 @@ body::before {
     width: 100%;
     justify-content: center;
     align-items: center;
-    flex-flow: wrap;
+    flex-direction: column;
 }
 .btn1{
-    outline: none;
-    border: 0;
-    border-radius: 10%;
+    
     
 
 }
@@ -89,12 +87,15 @@ button{
     text-align: center;
     padding: 1%;
     font-size: 1.5rem;
-    width: 14%;
-    height: 16%;
-    margin: 1%;
+    width: 10%;
+    height: 10%;
+    margin: 0.5%;
     cursor: pointer;
     background-color: #497174;
-    color: whitesmoke
+    color: whitesmoke;
+    outline: none;
+    border: 0;
+    border-radius: 10%;
     
 }
 
@@ -102,13 +103,18 @@ button:hover{
     background-color: #063c40;
 }
 .reset{
-    margin-top: 2%;
+    
     color: whitesmoke;
     background-color: #EB6440;
-    width: 31%;
+    
+    
+    
 }
 
 .reset:hover {
     background-color: #f44d1f;
 }
 
+.row {
+    width: 100%;
+}
