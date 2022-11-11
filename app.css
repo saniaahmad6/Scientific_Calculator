@@ -86,7 +86,7 @@ body::before {
 button{
     text-align: center;
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 10%;
     height: 10%;
     margin: 0.5%;
@@ -117,4 +117,201 @@ button:hover{
 
 .row {
     width: 100%;
+}
+
+@media (min-width:1196px) and (max-width:1326px) {
+  .container{
+      height: 90vh;
+  }
+  button{
+      width: 70px;
+      height:30px;
+  }
+  
+}
+
+@media (min-width:1144px) and (max-width:1195px) {
+  .container{
+      height: 90vh;
+  }
+  button{
+      width: 60px;
+      height:30px;
+  }
+  
+}
+
+@media (min-width: 988px) and (max-width:1144px) {
+  .container{
+      height: 85vh;
+  }
+  button{
+      width: 55px;
+      height:30px;
+  }
+  
+}
+
+@media (min-width: 952px) and (max-width:988px) {
+  .container{
+      height: 75vh;
+  }
+  button{
+      width: 50px;
+      height:30px;
+  }
+  
+}
+
+@media (min-width: 760px) and (max-width:952px) {
+  .container{
+      height: 75vh;
+  }
+  button{
+      width: 38.5px;
+      height:30px;
+      font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 683px) and (max-width:760px) {
+  .container{
+      width: 62%;
+
+      height: 80vh;
+  }
+  button{
+      width: 45px;
+      height:30px;
+      font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 577px) and (max-width:683px) {
+  .container{
+      width: 71%;
+
+      height: 75vh;
+  }
+  button{
+      width: 43px;
+      height:30px;
+      font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 455px) and (max-width:577px) {
+  .container{
+      width: 90%;
+
+      height: 75vh;
+  }
+  button{
+      width: 43px;
+      height:30px;
+      font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 420px) and (max-width:455px) {
+  .container{
+      width: 95%;
+
+      height: 75vh;
+  }
+  button{
+      width: 41.5px;
+      height:30px;
+      font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 373px) and (max-width:420px) {
+  .container{
+      width: 95%;
+
+      height: 75vh;
+  }
+  button{
+      width: 35px;
+      height:30px;
+      font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 373px) and (max-width:420px) {
+  .container{
+      width: 95%;
+
+      height: 75vh;
+  }
+  button{
+      width: 35px;
+      height:30px;
+      font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 331px) and (max-width:373px) {
+  .container{
+      width: 95%;
+
+      height: 66vh;
+  }
+  button{
+      width: 35px;
+      height:30px;
+      font-size: 10px;
+      margin: 3px;
+      box-shadow:  3px 3px 3px rgb(10, 8, 8),
+      -3px -3px 3px  rgb(76, 75, 75);
+      /* background-color: rgb(131, 131, 131); */
+ 
+  }
+  
+}
+
+@media (min-width: 278px) and (max-width:330px) {
+  .container{
+      width: 100%;
+
+      height: 65vh;
+  }
+  button{
+      width: 31px;
+      height:30px;
+      font-size: 8px;
+      margin: 1.2px;
+      box-shadow:  2.5px 2.5px 2.5px rgb(10, 8, 8),
+      -2.5px -2.5px 2.5px  rgb(76, 75, 75);
+      /* background-color: rgb(131, 131, 131);
+  */
+  }
+  
+}
+
+@media (min-width: 160px) and (max-width:278px) {
+  .container{
+      width: 100%;
+
+      height: 60vh;
+  }
+  button{
+      width: 28px;
+      height:30px;
+      font-size: 8px;
+      margin: 1px;
+      box-shadow:  1.5px 1.5px 1.5px rgb(10, 8, 8),
+      -1.5px -1.5px 1.5px  rgb(76, 75, 75);
+      /* background-color: rgb(131, 131, 131);
+  */
+  }
+  
 }
