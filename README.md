@@ -1,3 +1,3 @@
-# Scientific_Calculator
+# Scientific Calculator
 
 ![Screenshot of WebPage](/images/screenshot.png "Calculator")
